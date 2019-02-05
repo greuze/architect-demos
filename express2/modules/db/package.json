@@ -1,0 +1,14 @@
+{
+    "name": "db",
+    "version": "0.0.1",
+    "main": "db.js",
+    "private": true,
+    "plugin": {
+        "consumes": [
+            "http"
+        ]
+    },
+    "dependencies": {
+        "uuid": "^3.3.2"
+    }
+}

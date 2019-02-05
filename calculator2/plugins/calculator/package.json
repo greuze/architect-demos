@@ -1,0 +1,15 @@
+{
+    "name": "calculator",
+    "version": "0.0.1",
+    "main": "calculator.js",
+    "private": true,
+    "dependencies": {
+        "stack": "~0.1.0"
+    },
+    "plugin": {
+        "consumes": [
+            "http",
+            "auth"
+        ]
+    }
+}

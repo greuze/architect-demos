@@ -1,0 +1,12 @@
+{
+    "name": "fail",
+    "version": "0.0.1",
+    "main": "fail.js",
+    "private": true,
+    "plugin": {
+        "consumes": [
+            "http",
+            "auth"
+        ]
+    }
+}

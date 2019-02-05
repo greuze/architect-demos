@@ -1,0 +1,14 @@
+{
+    "name": "http-server",
+    "version": "0.0.1",
+    "main": "http.js",
+    "private": true,
+    "plugin": {
+        "provides": [
+            "http"
+        ]
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

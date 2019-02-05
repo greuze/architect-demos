@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "architect-demo",
+    "description": "plugin system experiment",
+    "version": "0.0.0",
+    "engines": {
+        "node": "~0.6.11"
+    },
+    "dependencies": {
+        "architect": "^0.1.13",
+        "auth": "./modules/auth",
+        "db": "./modules/db"
+    }
+}
