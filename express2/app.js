@@ -8,7 +8,6 @@ architect.loadConfig(configPath, (err, config) => {
     if (err) throw err;
     var myApp = architect.createApp(config, function (err, app) {
         if (err) throw err;
-        require('mymodule')(app.services.http)
         console.log('App ready');
     });
     

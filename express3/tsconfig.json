@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "outDir": "./lib",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "es2016"
+    },
+    "include": [
+      "src/**/*",
+    ],
+    "exclude": [
+      "lib",
+      "node_modules"
+    ]
+}

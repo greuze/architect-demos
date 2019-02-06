@@ -1,0 +1,12 @@
+{
+    "name": "auth",
+    "version": "0.0.1",
+    "main": "auth.js",
+    "private": true,
+    "plugin": {
+        "consumes": [ "http" ]
+    },
+    "dependencies": {
+        "uuid": "^1.4.2"
+    }
+}

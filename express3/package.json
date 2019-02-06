@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "name": "architect-demo",
+    "description": "plugin system experiment",
+    "version": "0.0.0",
+    "engines": {
+        "node": "~0.6.11"
+    },
+    "dependencies": {
+        "@types/mongodb": "^3.1.1",
+        "@types/node": "^8.10.32",
+        "architect": "^0.1.13",
+        "auth": "./modules/auth",
+        "cross-env": "^5.2.0",
+        "db": "./modules/db",
+        "mongodb": "^3.1.13",
+        "shx": "^0.3.1",
+        "typescript": "^2.9.2"
+    },
+    "scripts": {
+        "build": "npm run clean && npm run compile",
+        "clean": "cross-env shx rm -fR ./lib",
+        "compile": "tsc",
+        "prepare": "npm run build",
+        "start": "node ./lib/app.js"
+    }
+}
